@@ -1,0 +1,22 @@
+#main-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#picture-container{
+    /* border-radius: 10px; */
+}
+
+#receipe-container{
+    background-color: rgb(243, 196, 135);
+    color: rgb(130, 37, 37);
+    border-radius: 10px;
+    box-shadow: -10px 5px 5px rgb(133, 133, 133);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(133, 133, 133);
+}
